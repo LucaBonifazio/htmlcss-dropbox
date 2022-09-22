@@ -25,7 +25,7 @@ body {
 }
 
 .small-container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -87,6 +87,8 @@ li a{
 
 /* main */
 
+/* part 1 */
+
 .opening{
     background-color: #008CBA;
 }
@@ -95,7 +97,7 @@ li a{
     display: flex;
 }
 
-h1{
+.large-container h1{
     font-size: 5rem;
     padding-top: 1em;
     margin-bottom: 1em;
@@ -123,6 +125,22 @@ h1{
     left: 15px;
     bottom: 15px;
     font-size: 3em;
+}
+
+/* part 2 */
+
+.business-container{
+    background-color: orange;
+    height: 50rem;
+}
+
+.business-container h2{
+    padding: 4em 0 1.5em;
+    font-size: 2rem;
+}
+
+.radio-right{
+    margin-left: 2em;
 }
 
 
