@@ -278,13 +278,14 @@ hr{
 /* part 5 */
 
 .square-container{
-    height: 600px;
+    display: flex;
+    height: 30rem;
 }
 
 .squares{
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
+    width: 30%;
     height: 100%;
     background-color: black;
 }
@@ -292,20 +293,40 @@ hr{
 .square{
     height: 50%;
     width: 50%;
+    display: flex;
+    padding: 3em;
 }
 
-.sq-blue{
-    background-color: blue;
+.sq-green{
+    background-color: #A2D39B;
+    /* background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
+
+.sq-scarlet{
+    background-color: #61082B;
+}
+
+.sq-lightblue{
+    background-color: #0093CE;
 }
 
 .sq-red{
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
-.sq-yellow{
-    background-color: yellow;
+.sq-grey{
+    background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 2em;   
 }
 
-.sq-pink{
-    background-color: pink;
+.overflow-box{
+    width: 30%;
+    overflow: scroll;
+    padding: 3em;
+    background-color: #F5F5F5; 
 }
