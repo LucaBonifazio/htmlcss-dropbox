@@ -27,6 +27,7 @@ body {
 .small-container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 4em 0 4em;
 }
 
 a{
@@ -139,8 +140,8 @@ li a{
 }
 
 .business-container h2{
-    padding: 4em 0 1.5em;
-    font-size: 2rem;
+    padding: 2em 0 1.5em;
+    font-size: 2.5rem;
 }
 
 .radio-right{
@@ -172,7 +173,7 @@ li a{
 }
 
 .column-content h3{
-    font-size: 2em;
+    font-size:1.5em;
 }
 
 .normal-link{
@@ -217,4 +218,94 @@ hr{
     padding: 0 3em;
 }
 
+/* part 3 */
 
+.dropbox-partner{
+    display: flex;
+    padding-top: 8em;
+}
+
+.img-box{
+    width: 200em;
+}
+
+.img-text{
+    padding: 3em;
+}
+
+.img-text p{
+    padding: 2em 0 2em;
+}
+
+.btn-white{
+    display: inline-block; 
+    color: black;
+    background-color: white;  
+    border: 1px solid black;
+}
+
+/* part 4 */
+
+.operation-container{
+    padding-top: 8em;
+}
+
+.operation-container h2{
+    font-size: 2.5rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.card{
+    width: 30%;
+    padding-top: 4em;
+}
+
+.card h3{
+    padding: 1em 0 1em;
+}
+
+.under-cards h2{
+    padding: 3em 0 1.5em;
+    max-width: 60%;
+}
+
+
+/* part 5 */
+
+.square-container{
+    height: 600px;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 100%;
+    background-color: black;
+}
+
+.square{
+    height: 50%;
+    width: 50%;
+}
+
+.sq-blue{
+    background-color: blue;
+}
+
+.sq-red{
+    background-color: red;
+}
+
+.sq-yellow{
+    background-color: yellow;
+}
+
+.sq-pink{
+    background-color: pink;
+}
