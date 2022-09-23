@@ -94,7 +94,7 @@ li a{
 
 /* part 1 */
 
-.opening{
+.body-size{
     background-color: #B4D0E7;
 }
 
@@ -285,7 +285,7 @@ hr{
 .squares{
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 33.33%;
     height: 100%;
     background-color: black;
 }
@@ -325,8 +325,43 @@ hr{
 }
 
 .overflow-box{
-    width: 30%;
+    width: 33.33%;
     overflow: scroll;
     padding: 3em;
     background-color: #F5F5F5; 
+}
+
+/* part 6 */
+
+.free-try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-try h2{
+    padding: 2em;
+    max-width: 60%;
+    font-size: 2em;
+}
+
+.btn-grey{
+    background-color: #F5F5F5;
+    color: black;
+}
+
+/* part7 */
+
+.answer-container h2{
+    font-size: 2em;
+    padding-bottom: 2em;
+}
+
+.answer>div{
+    border-top: 1px solid black;
+    padding: 2em;
+}
+
+.answer:last-child{
+    border-bottom: 1px solid black;
 }
