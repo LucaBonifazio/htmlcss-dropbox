@@ -74,7 +74,7 @@ header {
     margin: 0 2em;
 }
 
-li {
+.navbar li {
     display: flex;
 	align-items: center;
 	margin: 0 .5em;
@@ -161,6 +161,7 @@ li a{
 
 .column-content{
     padding: 2em;
+    line-height: 4em;
 }
 
 .normal-link{
@@ -170,6 +171,8 @@ li a{
 
 hr{
     width: 4em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 .fa-check{
@@ -178,6 +181,8 @@ hr{
 
 .column-ul{
     list-style: none;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 
