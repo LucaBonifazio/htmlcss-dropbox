@@ -147,7 +147,7 @@ li a{
 
 .container-columns{
    display: flex;
-   gap: 4em; 
+   gap: 4em;
    margin-bottom: 3em;
 }
 
@@ -194,7 +194,7 @@ hr{
 .column-ul li{
     display: flex;
     padding: 1em 0;
-} 
+}
 
 .fa-solid{
     margin-right: .5em;
@@ -213,9 +213,9 @@ hr{
 }
 
 .hr-column p{
-    text-align: left; 
-    margin-top:2em ; 
-    max-width: 70%;  
+    text-align: left;
+    margin-top:2em ;
+    max-width: 70%;
 }
 
 .btn-hr-column{
@@ -245,9 +245,9 @@ hr{
 }
 
 .btn-white{
-    display: inline-block; 
+    display: inline-block;
     color: black;
-    background-color: white;  
+    background-color: white;
     border: 1px solid black;
 }
 
@@ -340,14 +340,14 @@ hr{
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 2em;   
+    padding: 2em;
 }
 
 .overflow-box{
     width: 33.33%;
     overflow: scroll;
     padding: 3em;
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
 }
 
 /* free-try container */
@@ -380,7 +380,7 @@ hr{
     position: relative;
 }
 
-.answer>div{
+.answer-drop>.answer-buh{
     border-top: 1px solid black;
     padding: 2em;
     display: flex;
@@ -391,13 +391,31 @@ hr{
     border-bottom: 1px solid black;
 }
 
+.drop-down p{
+    padding: 2em;
+}
+
 /* answer container:hover */
 
-.answer p,
-.answer .fa-circle-up {
+.drop-down{
     display: none;
 }
 
+.answer-drop:hover .drop-down{
+    display: block;
+}
+
+.fa-circle-up{
+    display: none;
+}
+
+.answer-drop:hover .fa-circle-up{
+    display: block;
+}
+
+.answer-drop:hover .fa-circle-down{
+    display: none;
+}
 
 /* footer */
 
@@ -415,13 +433,11 @@ footer{
     list-style: none;
 }
 
-.footer-list .title-link{
-    padding-bottom: 2em;
-}
-
 .title-link{
     font-size: 1.5em;
     color: white;
+    margin-bottom: .5em;
+    display: block;
 }
 
 .menu-link{
