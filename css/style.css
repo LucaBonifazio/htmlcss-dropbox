@@ -92,7 +92,7 @@ li a{
 
 /* main */
 
-/* part 1 */
+/* business container */
 
 .body-size{
     background-color: #B4D0E7;
@@ -133,11 +133,7 @@ li a{
     color: black;
 }
 
-/* part 2 */
-
-.business-container{
-    
-}
+/* business container */
 
 .business-container h2{
     padding: 2em 0 1.5em;
@@ -157,7 +153,6 @@ li a{
 
 .column{
     border: 1px solid black;
-    
 }
 
 .column-type{
@@ -168,12 +163,11 @@ li a{
 
 .column-content{
     padding: 2em;
-    line-height: 3em;
-    font-size: .8em;
 }
 
 .column-content h3{
     font-size:1.5em;
+    padding: 1em 0;
 }
 
 .normal-link{
@@ -197,8 +191,21 @@ hr{
     margin-bottom: 3em;
 }
 
+.column-ul li{
+    display: flex;
+    padding: 1em 0;
+} 
+
+.fa-solid{
+    margin-right: .5em;
+}
+
 .btn-column{
     padding: 1em 3em;
+}
+
+.buy-now{
+    padding-top: 3em;
 }
 
 .hr-column{
@@ -215,10 +222,10 @@ hr{
     position: absolute;
     top: 20px;
     right: 20px;
-    padding: 0 3em;
+    padding: 1em 3em;
 }
 
-/* part 3 */
+/* dropbox container */
 
 .dropbox-partner{
     display: flex;
@@ -244,7 +251,7 @@ hr{
     border: 1px solid black;
 }
 
-/* part 4 */
+/* operatio container */
 
 .operation-container{
     padding-top: 8em;
@@ -275,7 +282,7 @@ hr{
 }
 
 
-/* part 5 */
+/* squares container */
 
 .square-container{
     display: flex;
@@ -287,7 +294,6 @@ hr{
     flex-wrap: wrap;
     width: 33.33%;
     height: 100%;
-    background-color: black;
 }
 
 .square{
@@ -299,9 +305,6 @@ hr{
 
 .sq-green{
     background-color: #A2D39B;
-    /* background-image: url(../img/designit.svg);
-    background-size: contain;
-    background-repeat: no-repeat; */
 }
 
 .sq-scarlet{
@@ -331,7 +334,7 @@ hr{
     background-color: #F5F5F5; 
 }
 
-/* part 6 */
+/* free-try container */
 
 .free-try{
     display: flex;
@@ -350,7 +353,7 @@ hr{
     color: black;
 }
 
-/* part7 */
+/* answer container */
 
 .answer-container h2{
     font-size: 2em;
@@ -364,4 +367,43 @@ hr{
 
 .answer:last-child{
     border-bottom: 1px solid black;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list .title-link{
+    padding-bottom: 2em;
+}
+
+.title-link{
+    font-size: 1.5em;
+    color: white;
+}
+
+.menu-link{
+    color: white;
+    line-height: 2em;
+}
+
+.foot-hr{
+    width: 10%;
+    color: white;
+}
+
+.language{
+    color: white;
 }
