@@ -59,7 +59,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    padding: .3em;
+    padding: 0 .3em;
     white-space: nowrap;
 }
 
@@ -72,17 +72,24 @@ header {
 	display: flex;
 	list-style: none;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
     margin: 0 2em;
 }
 
 .navbar li {
     display: flex;
-	align-items: center;
+    align-items: center;
+    height: 100%;
 	margin: 0 .5em;
 }
 
 li a{
     color: black;
+}
+
+.navbar li:hover{
+    background-color: #0061FF;
 }
 
 .logo-dropbox{
