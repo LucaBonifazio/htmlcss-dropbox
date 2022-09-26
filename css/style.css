@@ -319,8 +319,24 @@ hr{
     background-color: #FF1C1C;
 }
 
+.sq-dark-red{
+    background-color: #D5001F;
+}
+
+.sq-heavenly{
+    background-color: #B4D0E7;
+}
+
+.sq-blue{
+    background-color: #0D2481;
+}
+
+.sq-yellow{
+    background-color: #FFD830;
+}
+
 .sq-grey{
-    background-image: url(../img/designit.svg);
+    background-image: url(../img/designit-big.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -360,14 +376,28 @@ hr{
     padding-bottom: 2em;
 }
 
+.answer{
+    position: relative;
+}
+
 .answer>div{
     border-top: 1px solid black;
     padding: 2em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .answer:last-child{
     border-bottom: 1px solid black;
 }
+
+/* answer container:hover */
+
+.answer p,
+.answer .fa-circle-up {
+    display: none;
+}
+
 
 /* footer */
 
@@ -407,3 +437,4 @@ footer{
 .language{
     color: white;
 }
+
